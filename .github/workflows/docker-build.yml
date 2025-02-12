@@ -26,3 +26,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/dsci310-ia3-lcg077-docker:latest
+            ${{ secrets.DOCKER_USERNAME }}/dsci310-ia3-lcg077-docker:v1.0
